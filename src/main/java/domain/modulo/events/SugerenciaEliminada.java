@@ -7,7 +7,7 @@ public class SugerenciaEliminada extends DomainEvent {
     private final SugerenciaId sugerenciaId;
 
     public SugerenciaEliminada(SugerenciaId sugerenciaId) {
-        super("empresa.sugerencia.sugerenciaeliminada");
+        super("empresa.modulo.sugerenciaeliminada");
         this.sugerenciaId = sugerenciaId;
     }
 
